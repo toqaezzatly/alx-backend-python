@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
-"""
-Type-annotated callable function
-"""
+""" Complex types - functions """
 
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    def multiplier_function(value: float) -> float:
-        """value * multiplier"""
-        return value * multiplier
-    """callable function"""
-    return multiplier_function
+    """ return function that multiplies a float by multiplier """
+    return lambda x: x * multiplier
