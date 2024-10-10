@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from typing import List
 """
-type-annotated function takes lst of floats -> float sum
+type-annotated fn takes floats -> float sum
 """
 
 
