@@ -2,6 +2,7 @@
 """
 Type-annotated callable function
 """
+
 from typing import Callable
 
 
